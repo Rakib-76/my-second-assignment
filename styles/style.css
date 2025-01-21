@@ -8,6 +8,11 @@
   font-style: normal;
 }
 
+/* body style related */
+.background-color{
+    background-color: #f7f7f7;
+}
+
 /* hide related style */
 .hide-icon{
     display: none;
@@ -78,6 +83,7 @@ nav ul li a{
     max-width:  197px;
     height: 50px;
     border: none;
+    cursor: pointer;
 }
 .button{
     display: flex;
@@ -116,6 +122,7 @@ nav ul li a{
     padding: 0.625rem 2.94rem;
     border: none;
     border-radius: 12px;
+    cursor: pointer;
 }
 .kids-image{
     max-width: 468.61px;
@@ -140,6 +147,8 @@ nav ul li a{
     .nav-container{
         display: flex;
         justify-content: space-between;
+        border-bottom: 2px solid orange;
+        padding: 0px 10px 0px 10px;
     }
     .banner-container{
         display: flex;
@@ -147,6 +156,7 @@ nav ul li a{
         justify-content: center;
         align-items: center;
          gap: 20px;
+         padding: 0px 11px;
     }
     .kids-image{
         width: 100%;
@@ -156,10 +166,14 @@ nav ul li a{
         text-align: center;
         margin-top: 0px;
     }
-    .banner-container{
-        border-top: 1px solid orange;
-        margin-top: 10px;
+   
+    body{
+        margin: 0px;
+        padding: 0px;
+        
     }
 
-
+    .something{
+        font-size: 2rem;
+    }
 }
