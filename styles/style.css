@@ -7,3 +7,159 @@
   font-weight: 400;
   font-style: normal;
 }
+
+/* hide related style */
+.hide-icon{
+    display: none;
+}
+
+/* all section common style */
+.fixed{
+    max-width: 1160px;
+    margin: 0 auto;
+}
+
+/* banner related style */
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-container{
+    display: flex;
+    align-items: center;
+    gap: 0.69rem;
+}
+
+.logo-image{
+    max-width: 62px;
+    height: 62px;
+}
+.school{
+    font-weight: 700;
+    font-size: 2rem;
+    color: black;
+}
+nav ul li{
+    list-style: none;
+
+}
+nav ul li a{
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.25rem;
+}
+.anchor-container{
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+.home{  
+    color: #FEA301;
+}
+.about{
+    color: #01ACFD;
+}
+.facillities{
+    color: #05D4DF;
+}
+.admission{
+    color: #5D58EF;
+}
+
+.btn-primary{
+    font-weight: 600;
+    font-size: 1.25rem;
+    color: white;
+    background-color: orange;
+    border-radius: 12px;
+    padding: 0.625rem 3.75rem; 
+    max-width:  197px;
+    height: 50px;
+    border: none;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* text and image of banner related style */
+.banner-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     gap: 50px;
+}
+.vision-title{
+    font-weight: 700;
+    font-size: 3.5rem;
+    margin-bottom: 0px;
+}
+.empowering{
+    color: orange;
+}
+.towards{
+    color: skyblue
+}
+.vision-description{
+    font-weight: 400;
+    font-size: 1.25rem;
+    color: black;
+}
+.btn-secondary{
+    max-width: 197px;
+    height: 50px;
+    color: white;
+    background-color: black;
+    padding: 0.625rem 2.94rem;
+    border: none;
+    border-radius: 12px;
+}
+.kids-image{
+    max-width: 468.61px;
+    height: 575px;
+}
+
+
+
+
+
+
+
+
+/* resposive for mobile */
+@media screen and (max-width: 575px) {
+    .hide{
+        display: none;
+    }
+    .hide-icon{
+        display: block;
+    }
+    .nav-container{
+        display: flex;
+        justify-content: space-between;
+    }
+    .banner-container{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+         gap: 20px;
+    }
+    .kids-image{
+        width: 100%;
+        height: 100%;
+    }
+    .text-container{
+        text-align: center;
+        margin-top: 0px;
+    }
+    .banner-container{
+        border-top: 1px solid orange;
+        margin-top: 10px;
+    }
+
+
+}
