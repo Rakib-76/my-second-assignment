@@ -13,6 +13,15 @@
 .background-color{
     background-color: #f7f7f7;
 }
+.marquee{
+    font-weight: 400;
+    font-size: 0.85rem;
+    color: black;
+    background-color: #f7f7f7;
+    margin-bottom: -10px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
 
 /* hide related style */
 .hide-icon{
@@ -41,7 +50,7 @@
     max-width: 62px;
     height: 62px;
 }
-.school{
+.nav-school{
     font-weight: 700;
     font-size: 2rem;
     color: black;
@@ -133,7 +142,9 @@ nav ul li a{
 /* first section of main related */
 
 .bg-color{
-    background-image: url(../assets/bg.png);
+    background-image: url(../assets/bg.png), linear-gradient(180deg, #f7f7f7, #f7f7f7);
+    margin-top: -50px;
+
 }
 
 .curriculum{
@@ -141,6 +152,7 @@ nav ul li a{
     font-size: 2.875rem;
     color: #000000;
     text-align: center;
+    padding-top: 30px;
 }
 
 /* card related style */
@@ -217,10 +229,11 @@ nav ul li a{
 /* second section of main related */
 .second-section-background{
     background-image:
-    url(../assets/bg.png);
+    url(../assets/bg.png),linear-gradient(180deg, #f7f7f7, #f9e1b7);
+    margin-top: -100px;
 }
 .second-section{
-    margin-top: 100px;
+    padding-top: 200px;
 }
 .story{
     text-align: center;
@@ -266,6 +279,7 @@ nav ul li a{
     height: 50px;
     margin-left: 500px;
     margin-top: 80px;
+    margin-bottom: 40px;
     
 }
 
@@ -297,14 +311,17 @@ nav ul li a{
 /* footer related styles  */
 .footer-section{
     background-color: #01ACFD;
-    margin-top: 60px;
-    padding: 157px 240px 157px 140px;
+    margin-top: -10px;
+    /* padding: 157px 240px 157px 140px; */
+    padding-top: 200px;
+    height: 519px;
 
 }
 .footer-container{
     display: flex;
     justify-content: space-between;
     gap: 20px;
+    padding-left: 20px;
 }
 .logo-and-title{
     display: flex;
@@ -330,7 +347,7 @@ nav ul li a{
     max-width: 390px;
     margin-top: 0px;
 }
-.school{
+.footer-school{
     font-weight: 700;
     font-size: 1.5rem;
     color: #FFFFFF;
@@ -345,7 +362,7 @@ nav ul li a{
 ul li{
     list-style: none;
 }
-ul li a{
+.footer-anchor{
     text-decoration: none;
     font-weight: 500;
     font-size: 1.25rem;
@@ -404,7 +421,7 @@ ul li a{
     }
     .text-container{
         text-align: center;
-        margin-top: 0px;
+        margin-bottom: 100px;
         width: 100%;
     }
    
@@ -419,7 +436,8 @@ ul li a{
         grid-template-columns: repeat(1, 1fr);
         gap: 1.75rem;
         margin: 0 auto;
-        padding: 0 40px; 
+        padding: 0 40px;
+        margin-left: -20px; 
     }
     .card{
         width: 100%;
@@ -454,7 +472,7 @@ ul li a{
         height: 50px;
         /* margin-left: 500px; */
         margin-top: 20px;
-        margin-left: 170px;
+        margin-left: 150px;
         
     }
 
@@ -475,8 +493,20 @@ ul li a{
         }
        .footer-section{
         width: 100%;
-        margin: 0px;
+        margin-top: 0px;
+        height: 100%;
+        padding-top: 0px;
        }
+       .footer-icon{
+        margin-left: -35px;
+        margin-bottom: 40px;
+       }
+    }
+
+
+    /*resize something  */
+    .empowering{
+        max-width: 575px;
     }
 
 /* section hide related */
