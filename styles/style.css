@@ -232,6 +232,10 @@ nav ul li a{
     url(../assets/bg.png),linear-gradient(180deg, #f7f7f7, #f9e1b7);
     margin-top: -100px;
 }
+
+.card-container{
+    max-width: 1160px;
+}
 .second-section{
     padding-top: 200px;
 }
@@ -245,6 +249,7 @@ nav ul li a{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
+    max-width: 1160px;
 }
 .span{
     grid-row: span 2;
@@ -312,7 +317,6 @@ nav ul li a{
 .footer-section{
     background-color: #01ACFD;
     margin-top: -10px;
-    /* padding: 157px 240px 157px 140px; */
     padding-top: 200px;
     height: 519px;
 
@@ -422,7 +426,7 @@ ul li{
     .text-container{
         text-align: center;
         margin-bottom: 100px;
-        width: 100%;
+        max-width: 575px;
     }
    
    
@@ -461,7 +465,7 @@ ul li{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap: 20px;
-        padding: 20px;
+        padding: 0px 30px;
     }
     .story-card,
     img{
@@ -470,7 +474,6 @@ ul li{
     .view-btn{
         max-width: 197px;
         height: 50px;
-        /* margin-left: 500px; */
         margin-top: 20px;
         margin-left: 150px;
         
@@ -504,10 +507,6 @@ ul li{
     }
 
 
-    /*resize something  */
-    .empowering{
-        max-width: 575px;
-    }
 
 /* section hide related */
 .hidden{
