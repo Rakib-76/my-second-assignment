@@ -224,6 +224,7 @@ nav ul li a{
     body{
         margin: 0px;
         padding: 0px;
+        width: 100%;
         
     }
     .hide{
@@ -236,7 +237,8 @@ nav ul li a{
         display: flex;
         justify-content: space-between;
         border-bottom: 2px solid orange;
-        padding: 0px 10px 0px 10px;
+        padding: 0px 30px;
+        max-width: 575px;
     }
     .banner-container{
         display: flex;
@@ -244,7 +246,7 @@ nav ul li a{
         justify-content: center;
         align-items: center;
          gap: 20px;
-         padding: 0px 11px;
+         padding: 0px 30px;
     }
     .kids-image{
         width: 100%;
@@ -267,21 +269,22 @@ nav ul li a{
         grid-template-columns: repeat(1, 1fr);
         gap: 1.75rem;
         margin: 0 auto;
+        padding: 0 40px; 
     }
     .card{
         width: 100%;
         margin: 0 auto;
     }
     
-     .bg-color{
+     main{
         max-width: 575px;
-        margin: 0px;
      }
      .curriculum{
         max-width: 387px;
         text-align: center;
         margin:0 auto;
         margin-bottom: 10px;
+        padding: 0 70px; 
      }
     
 }
